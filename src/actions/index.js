@@ -3,7 +3,7 @@ import { ADD_PRODUCT, DATA_LOADED, DATA_DELETED, DATA_EDIT, DATA_UPDATE, FETCH_P
 
 export function addProduct(payload){
     return function(dispatch){
-        fetch("http://localhost:3000/products",{
+        fetch("https://json-server-prakash.herokuapp.com/products",{
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -45,7 +45,7 @@ export function getData(){
 
 export function deleteData(payload){
     return function(dispatch){
-        fetch("http://localhost:3000/products/"+payload.id,{
+        fetch("https://json-server-prakash.herokuapp.com/products/"+payload.id,{
         method: 'DELETE',
         headers: {
             "Content-Type": "application/json",
@@ -82,7 +82,7 @@ export function editProduct(payload){
 export function updateProduct(payload){
     //console.log("updated data",payload)
     return function(dispatch){
-        fetch("http://localhost:3000/products/"+payload.id,{
+        fetch("https://json-server-prakash.herokuapp.com/products/"+payload.id,{
         method: 'PATCH',
         headers: {
             "Content-Type": "application/json",
