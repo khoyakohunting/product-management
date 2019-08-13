@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "ProductName": "Biscutes Mario",
+      "SKU": "SKC560",
+      "StockQuantity": "30",
+      "WholesaleCost": "500",
+      "SalePrice": "200",
+      "QuantitySold": "100",
+      "GrossSale": "500",
+      "NetSale": "500",
+      "Notes": "Nice product"
+    },
+    {
+      "id": "3",
+      "ProductName": "asd",
+      "SKU": "SKC560",
+      "StockQuantity": "30",
+      "WholesaleCost": "500",
+      "SalePrice": "200",
+      "QuantitySold": "100",
+      "GrossSale": "500",
+      "NetSale": "500",
+      "Notes": "Nice product"
+    },
+    {
+      "id": "5",
+      "ProductName": "Updated",
+      "SKU": "SKC560",
+      "StockQuantity": "30",
+      "WholesaleCost": "500",
+      "SalePrice": "200",
+      "QuantitySold": "100",
+      "GrossSale": "500",
+      "NetSale": "500",
+      "Notes": "Nice product"
+    },
+    {
+      "id": "7",
+      "ProductName": "Biscutes",
+      "SKU": "SKC560",
+      "StockQuantity": "30",
+      "WholesaleCost": "500",
+      "SalePrice": "200",
+      "QuantitySold": "100",
+      "GrossSale": "500",
+      "NetSale": "500",
+      "Notes": "Nice product"
+    },
+    {
+      "ProductName": "sadas",
+      "SKU": "dasd",
+      "StockQuantity": "asd",
+      "WholesaleCost": "asdas",
+      "SalePrice": "das",
+      "Notes": "d",
+      "id": "88207ae5-7f5f-4bbe-b847-8988627f50f5"
+    },
+    {
+      "ProductName": "sda",
+      "SKU": "das",
+      "StockQuantity": "dasd",
+      "WholesaleCost": "sad",
+      "SalePrice": "sa",
+      "Notes": "dasd",
+      "id": "118c9ad6-893b-4091-a9d3-61934f698cc8"
+    },
+    {
+      "ProductName": "fdsfsd",
+      "SKU": "sfsdf",
+      "StockQuantity": "sdf",
+      "WholesaleCost": "sdfsdf",
+      "SalePrice": "fsdf",
+      "Notes": "sd",
+      "id": "f62e231d-75c2-4325-b02f-6c638232f521"
+    },
+    {
+      "ProductName": "sada",
+      "SKU": "sdas",
+      "StockQuantity": "das",
+      "WholesaleCost": "dasd",
+      "SalePrice": "asda",
+      "Notes": "asdasd",
+      "id": "59213ca3-40a5-4bd6-9a0b-9b34eb47ca68"
+    },
+    {
+      "ProductName": "asdf",
+      "SKU": "sadfsdadasd",
+      "StockQuantity": "sdasf",
+      "WholesaleCost": "sdasfdasdasd",
+      "SalePrice": "sadf",
+      "Notes": "sds dsfsdfsdfs",
+      "id": "149649dd-dd24-4363-81b0-a2538bc32e15"
+    }
+  ]
+}
