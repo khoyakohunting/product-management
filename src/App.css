@@ -29,6 +29,9 @@
   padding: 0px !important;
   margin: 0px !important;
 }
+.table thead th {
+  font-size: smaller;
+}
 
 @keyframes App-logo-spin {
   from {
