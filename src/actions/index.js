@@ -30,7 +30,7 @@ export function addProduct(payload){
 export function getData(){
     return function(dispatch){
         dispatch(fetchProductPending());
-        return fetch("http://localhost:3000/products")
+        return fetch("https://json-server-prakash.herokuapp.com/products")
         .then(response => response.json())
         .then(json => {
             if(json.error){
