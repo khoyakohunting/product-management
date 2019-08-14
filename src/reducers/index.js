@@ -43,7 +43,7 @@ function rootReducer(state = initialState, action){
         }
     }
     if(action.type === FETCH_PRODUCT_SUCCESS){
-        console.log(action);
+        //console.log(action);
         return Object.assign({}),state,{
             products: action.products,
             isLoading: false

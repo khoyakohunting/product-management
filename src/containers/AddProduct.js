@@ -53,16 +53,16 @@ class productAddForm extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        console.log(!this.props.isEditing)
+        //console.log(!this.props.isEditing)
         if (!this.props.isEditing) {
-            console.log("added")
+            //console.log("added")
             const { ProductName, SKU, StockQuantity, WholesaleCost, SalePrice, Notes } = this.state;
             const id = uuidvproduct();
             this.props.addProduct({ ProductName, SKU, StockQuantity, WholesaleCost, SalePrice, Notes, id });
 
         }
         else{
-            console.log("Updated")
+            //console.log("Updated")
             const id = this.props.eproduct.id;
             const { ProductName, SKU, StockQuantity, WholesaleCost, SalePrice, Notes } = this.state;
              this.props.updateProduct({ ProductName, SKU, StockQuantity, WholesaleCost, SalePrice, Notes, id });
@@ -107,7 +107,7 @@ class productAddForm extends Component {
     //             })
     //         }
 componentWillReceiveProps(nextProps){
-    console.log("dsad",this.props)
+    //console.log("dsad",this.props)
     if ((nextProps.eproduct !== this.props.eproduct) && !this.props.isEditing) {
         this.setState(nextProps.eproduct);
       }

@@ -37,7 +37,7 @@ export function getData(){
                 throw(json.error);
             }
             dispatch(fetchProductSuccess(json));
-            console.log("getdata",json)
+            //console.log("getdata",json)
             return json
         });
     };

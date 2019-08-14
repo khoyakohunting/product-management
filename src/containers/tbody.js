@@ -68,7 +68,7 @@ class connectedTables extends Component {
 
   render() {
     const products = this.props.products;
-    console.log("rendering", products)
+    //console.log("rendering", products)
     //console.log("rendering",this.isDataLoaded())
     
 
@@ -91,7 +91,7 @@ class connectedTables extends Component {
               <td>{lop.WholesaleCost}</td>
               <td>{lop.SalePrice}</td>
               <td>{lop.Notes}</td>
-              <td><button onClick={this.handleDelete} className={"btn btn-danger btn-sm"} id={lop.id}>Delete</button><button onClick={this.handleEdit} className={"btn btn-primary btn-sm"} id={lop.id}>Edit</button></td>
+              <td className="d-flex"><button onClick={this.handleDelete} className={"btn btn-danger btn-sm"} id={lop.id}>Delete</button><button onClick={this.handleEdit} className={"btn btn-primary btn-sm"} id={lop.id}>Edit</button></td>
             </tr>
           ))}
         </tbody>
